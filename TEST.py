@@ -25,6 +25,7 @@ if startdate and enddate:
         columns = ["Open","High","Low","Close","Adj Close"]
         st.subheader('**DataFrame for prediction**',divider=True)
         df = pd.DataFrame(predictions4,index=indexrange,columns=columns)
+        df = df.round(0)
         st.write(df)
         st.subheader("Prediction chart",divider=True)
         plt.figure(figsize=(15,7))
