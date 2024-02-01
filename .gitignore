@@ -13,3 +13,9 @@ test.ipynb
 TSET.csv
 without_stationarity.png
 venv/
+lstm.ipynb
+LSTM.joblib
+scaler.joblib
+MAIn.ipynb
+VAR.joblib
+autoreg.ipynb
