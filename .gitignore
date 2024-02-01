@@ -18,4 +18,3 @@ LSTM.joblib
 scaler.joblib
 MAIn.ipynb
 VAR.joblib
-autoreg.ipynb
